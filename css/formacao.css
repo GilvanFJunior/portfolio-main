@@ -1,11 +1,10 @@
 .formacao {
-  max-width: 1440px;
-  padding: 40px 20px;
-  margin: 0px auto;
+  max-width: 100%;
   display: grid;
-  grid-template-columns: 1fr;
-  gap: 100px;
-  align-items: center;
+  padding: 20px;
+  gap: 60px;
+  margin: 0 auto;
+  align-content: center;
 }
 
 .formacao-logo {
@@ -14,32 +13,29 @@
 }
 
 .formacao-barra {
-  align-items: center;
-  gap: 20px 20px;
-  padding: 20px;
+  max-width: 80ch;
   background: #8eb990;
-  margin-bottom: 20px;
   border-radius: 4px;
-  max-width: 60ch;
-  justify-content: center;
+  padding: 20px;
+  margin-left: 0 auto;
 }
 
-.formacao-texto {
-  display: flex;
+.formacao-barra {
+  margin-left: 120px;
+}
+
+.formacao-grade {
+  display: grid;
+  grid-template-columns: 4fr;
   align-items: center;
-  margin: 0 auto;
-  justify-content: center;
+  margin: auto;
 }
 
-.formacao-barra span {
-  align-content: end;
-}
-
-ul {
+.skills ul {
   list-style: none;
-}
-
-.skills {
   display: flex;
+  flex-wrap: wrap;
+  gap: 60px;
   align-content: center;
+  margin-left: 120px;
 }
