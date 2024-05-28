@@ -1,5 +1,5 @@
 .introducao {
-  max-width: 1440px;
+  max-width: 100%;
   padding: 40px 20px;
   margin: 0px auto;
   display: grid;
@@ -25,4 +25,5 @@
 .localizacao {
   margin-left: 1px;
   color: #000000;
+  margin-top: -20px;
 }

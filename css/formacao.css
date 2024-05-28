@@ -31,7 +31,7 @@
   display: flex;
 }
 .formacao-grade2 {
-  margin-left: 60px;
+  margin-left: 80px;
 }
 .formacao-titulo {
   padding: 20px;
@@ -46,6 +46,6 @@
   flex-wrap: wrap;
   gap: 60px;
   align-content: center;
-  margin-left: 200px;
+  margin-left: 300px;
   margin-top: 60px;
 }
