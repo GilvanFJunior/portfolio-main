@@ -21,14 +21,23 @@
 }
 
 .formacao-barra {
+  display: grid;
+  justify-content: center;
   margin-left: 120px;
+  padding: 20px;
 }
 
 .formacao-grade {
-  display: grid;
-  grid-template-columns: 4fr;
-  align-items: center;
-  margin: auto;
+  display: flex;
+}
+.formacao-grade2 {
+  margin-left: 60px;
+}
+.formacao-titulo {
+  padding: 20px;
+}
+.formacao-data {
+  margin-left: 60px;
 }
 
 .skills ul {
@@ -37,5 +46,6 @@
   flex-wrap: wrap;
   gap: 60px;
   align-content: center;
-  margin-left: 120px;
+  margin-left: 200px;
+  margin-top: 60px;
 }
