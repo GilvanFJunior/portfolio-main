@@ -1,0 +1,38 @@
+.header-menu {
+  max-width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 30px;
+}
+
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
+.header-menu {
+  background: linear-gradient(to right, #e0fbe2 0%, #859586 94%), no-repeat;
+}
+.logo {
+  width: 320px;
+  height: 62px;
+  padding-top: 20px;
+  padding-left: 30px;
+  margin-left: 120px;
+}
+.menu a {
+  font-size: 1.5rem;
+  font-family: Fira Sans, Arial, Helvetica, sans-serif;
+  line-height: 1.3;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #141414;
+  display: block;
+}
+.menu li {
+  list-style: none;
+}

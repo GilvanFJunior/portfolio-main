@@ -1,0 +1,24 @@
+.about {
+  max-width: 1440px;
+  padding: 40px 20px;
+  margin: 0px auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 100px;
+  align-items: center;
+}
+
+.about-imagem {
+  width: 400px;
+  height: 230px;
+  margin: auto;
+}
+
+.about-texto {
+  font-size: 1.6rem;
+  line-height: 1.33;
+  max-width: 65ch;
+  margin-bottom: 60px;
+  color: #000000;
+  margin-top: 30px;
+}
