@@ -1,11 +1,9 @@
 .experiencia-container {
-  max-width: 1440px;
-  padding: 40px 20px;
+  max-width: 100%;
+  padding: 20px;
   margin: 0px auto;
   display: grid;
-  grid-template-columns: 1fr;
   gap: 100px;
-  align-items: center;
 }
 
 .experiencia-logo {
@@ -18,25 +16,30 @@
 }
 
 .experiencia-barra {
-  gap: 20px 20px;
-  padding: 20px;
-  background: #f5f5f5;
-  margin-bottom: 20px;
-  border-radius: 4px;
   max-width: 80ch;
-  position: relative;
+  padding: 20px;
   background: #8eb990;
-}
-.grade-curso {
-  display: flex;
-}
-.grade-curso,
-.curso-militar {
-  align-items: center;
-  margin: 0 auto;
+  border-radius: 4px;
 }
 
-.curso-militar,
+.grade-marinha,
+span {
+  position: relative;
+  left: 38%;
+}
+span {
+  left: 42%;
+}
+
+.grade-curso,
+.curso-militar {
+  display: flex;
+  align-items: center;
+  margin-left: 0px;
+}
+.grade-curso {
+  margin-left: 30%;
+}
 .livro-curso {
-  place-items: end;
+  margin-right: 20px;
 }
