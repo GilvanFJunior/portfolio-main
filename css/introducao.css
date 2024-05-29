@@ -1,4 +1,4 @@
-.introducao {
+.introducao-container {
   max-width: 100%;
   padding: 40px 20px;
   margin: 0px auto;
@@ -8,7 +8,7 @@
   align-items: center;
 }
 
-.introducao h1 {
+.introducao-container h1 {
   font-family: Fira Sans, Poppins, Arial, Helvetica, sans-serif;
   font-size: 3rem;
   line-height: 1.125;
@@ -25,4 +25,35 @@
   margin-left: 1px;
   color: #000000;
   margin-top: -20px;
+}
+
+@media (max-width: 1440px) {
+  .introducao-texto {
+    margin-left: 60px;
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .introducao-container {
+    grid-template-columns: 1fr;
+    align-items: center;
+  }
+  .introducao-container img {
+    min-width: 150px 150px;
+    display: grid;
+    justify-self: start;
+    margin: 0 auto;
+  }
+
+  @media (max-width: 600px) {
+    .introducao-container {
+      grid-template-columns: 1fr;
+      align-items: center;
+      min-width: 20ch;
+    }
+    .introducao-container img {
+      min-width: 100px 100px;
+    }
+  }
 }

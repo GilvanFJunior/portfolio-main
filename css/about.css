@@ -9,16 +9,27 @@
 }
 
 .about-imagem {
-  width: 400px;
-  height: 230px;
+  font-size: 6rem;
+  color: #000000;
+  line-height: 86px;
+  padding-top: -20px;
   margin: auto;
+  font-family: roboto;
+  font-weight: 600;
 }
 
 .about-texto {
   font-size: 1.2rem;
   line-height: 1.33;
-  max-width: 65ch;
+  max-width: 55ch;
   margin-bottom: 60px;
   color: #000000;
   margin-top: 30px;
+}
+
+@media (min-width: 1440px) {
+  .about-texto {
+    margin-left: -150px;
+    margin-right: 100px;
+  }
 }

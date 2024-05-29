@@ -1,25 +1,44 @@
 .experiencia-container {
   max-width: 100%;
+  display: grid;
   padding: 20px;
   margin: 0px auto;
-  display: grid;
   gap: 60px;
+  align-items: center;
 }
 
 .experiencia-logo {
+  font-size: 6rem;
+  color: #000000;
   margin-top: 60px;
-  margin-left: 160px;
+  margin: 0 auto;
 }
 
-.experiencia-barra {
+.experiencia-barra1 {
   margin-left: 120px;
+  align-items: center;
+  margin: 0 auto;
 }
 
-.experiencia-barra {
+.experiencia-barra1 {
   max-width: 80ch;
   padding: 20px;
   background: #8eb990;
   border-radius: 4px;
+  align-items: center;
+}
+.experiencia-barra2 {
+  margin-left: 120px;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.experiencia-barra2 {
+  max-width: 80ch;
+  padding: 20px 70px;
+  background: #8eb990;
+  border-radius: 4px;
+  align-items: center;
 }
 
 .grade-marinha,
@@ -42,4 +61,25 @@ span {
 }
 .livro-curso {
   margin-right: 20px;
+}
+@media (max-width: 800px) {
+  .experiencia-container {
+    margin: 0 auto;
+    align-items: center;
+  }
+  .experiencia-logo {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 800px) {
+  .grade-curso,
+  .grade-marinha {
+    align-items: start;
+  }
+}
+@media (max-width: 600px) {
+  .experiencia-texto {
+    font-size: 12px;
+  }
 }

@@ -7,8 +7,11 @@
   align-content: center;
 }
 
-.footer-logo {
+.footer-titulo {
+  font-size: 6rem;
+  color: #000000;
   margin-top: 60px;
+  margin: 0 auto;
 }
 
 .footer-container {
@@ -31,4 +34,13 @@
 
 .footer-container p {
   font-size: 1.2rem;
+}
+
+@media (max-width: 800px) {
+  .contato {
+    gap: -60px;
+  }
+  .footer-titulo {
+    font-size: 3rem;
+  }
 }
