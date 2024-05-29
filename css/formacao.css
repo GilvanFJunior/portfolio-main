@@ -10,10 +10,12 @@
 }
 
 .formacao-titulo {
+  width: auto;
   font-size: 6rem;
   color: #000000;
   margin-top: 60px;
   margin: 0 auto;
+  font-family: Roboto monospace;
 }
 
 .formacao-barra1,

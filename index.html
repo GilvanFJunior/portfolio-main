@@ -7,13 +7,23 @@
   <title>Gilvan Junior - Desenvolvedor Front-End</title>
   <meta name="description" content="Desenvolvedor<br> Front End Localizado em Sorocaba">
   <link rel="stylesheet" href="./style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Calistoga&display=swap" rel="stylesheet">
 </head>
 
 <body>
-  <header class="header-menu">
-    <img class="logo" src="./img/Gilvan Junior Web Developer.svg" alt="Gilvan Junior">
-    <nav>
-      <ul class="menu">
+  <header id="header-menu">
+    <!-- <img class="logo" src="./img/Gilvan Junior Web Developer.svg" alt="Gilvan Junior"> -->
+    <div class="menu-logo">
+      <a class="gilvan-logo">GILVAN JUNIOR</a>
+      <a class="web-logo">Web Developer</a>
+    </div>
+    <nav id="nav">
+      <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false">
+        <span id="hamburger"></span>
+      </button>
+      <ul id="menu" role="menu">
         <li><a href="#introducao">Home</a></li>
         <li><a href="#about">Quem sou</a></li>
         <li><a href="#experiencia">Experiência</a></li>
@@ -39,17 +49,23 @@
   </main>
 
 
+
+
   <!--QUEM SOU-->
   <section class="about" id="about" aria-label="Quem sou">
-    <!--<img class="about-imagem" src="./img/QUEM SOU.svg" alt="Quem sou"> -->
-    <h3 class="about-imagem">QUEM <br>SOU</h3>
+
+    <h3 class="about-titulo">QUEM <br>SOU</h3>
     <div>
       <p class="about-texto">Desde 2015, atuo no <strong>Corpo de Fuzileiros Navais
         </strong>. Em meados de 2022, ingressei na faculdade, no curso em Análise e Desenvolvimento de Sistemas. Estou realizando diversos cursos intensivos em <strong>Front-End</strong>. Após a decisão de entrar no setor da tecnologia, tenho buscado à minha primeira oportunidade no <strong>mercado</strong>.</p>
     </div>
   </section>
 
+
+
   <div class="linha-grande"></div>
+
+
 
   <section class="experiencia-container" id="experiencia" aria-label="Experiencia">
     <!-- <img class="experiencia-logo" src="./img/EXPERIÊNCIA.svg"> -->

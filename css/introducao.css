@@ -34,7 +34,7 @@
   }
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 800px) {
   .introducao-container {
     grid-template-columns: 1fr;
     align-items: center;
@@ -45,15 +45,9 @@
     justify-self: start;
     margin: 0 auto;
   }
-
-  @media (max-width: 600px) {
-    .introducao-container {
-      grid-template-columns: 1fr;
-      align-items: center;
-      min-width: 20ch;
-    }
-    .introducao-container img {
-      min-width: 100px 100px;
-    }
+  .introducao-container h1 {
+    font-family: Fira Sans, Poppins, Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    line-height: 1.125;
   }
 }

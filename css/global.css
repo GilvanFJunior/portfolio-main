@@ -5,6 +5,7 @@
 }
 
 body {
+  max-width: 100%;
   background: fixed linear-gradient(#ace1af 0%, #aadead 0%, #5e7b60 100%);
 }
 
