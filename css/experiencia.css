@@ -12,6 +12,8 @@
   color: #000000;
   margin-top: 60px;
   margin: 0 auto;
+  font-family: roboto;
+  font-weight: 600;
 }
 
 .experiencia-barra1 {
@@ -42,11 +44,11 @@
 }
 
 .grade-marinha,
-span {
+.span-data {
   position: relative;
   left: 38%;
 }
-span {
+.span-data {
   left: 42%;
 }
 
@@ -72,14 +74,32 @@ span {
   }
 }
 
-@media (max-width: 800px) {
-  .grade-curso,
+/*------------------------------------RESPONSIVO -----------------------------------------------------*/
+
+@media (max-width: 600px) {
+  .experiencia-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 20px;
+    place-items: center;
+    align-items: center;
+    max-width: 30ch;
+  }
+
   .grade-marinha {
-    align-items: start;
+    position: static;
+    margin-left: 60px;
+  }
+  .span-data {
+    position: static;
+    margin-left: 90px;
+  }
+  .experiencia-texto {
+    font-size: 14px;
   }
 }
-@media (max-width: 600px) {
-  .experiencia-texto {
-    font-size: 12px;
-  }
+
+.grade-curso {
+  position: relative;
+  margin: 0 auto;
 }
