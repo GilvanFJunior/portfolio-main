@@ -28,11 +28,10 @@ const sr = ScrollReveal({
 
 sr.reveal(".imagem-perfil", {});
 sr.reveal(".menu-logo", {});
-sr.reveal(".introducao-texto", {});
-sr.reveal("experiencia-barra1", {});
+sr.reveal(".introducao-container", {});
 sr.reveal(".bottom", {});
-sr.reveal(".about-texto", {});
-sr.reveal(".about-img", {});
-sr.reveal(".l-cards", {});
-sr.reveal(".projeto-img", {});
-sr.reveal(".contato-info", {});
+sr.reveal(".projetos", {});
+sr.reveal(".formacao", {});
+sr.reveal(".contato", {});
+sr.reveal(".apresentacao", {});
+sr.reveal(".experiencia-container", {});
