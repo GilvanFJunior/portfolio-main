@@ -27,6 +27,24 @@
   margin-top: 30px;
 }
 
+.botao-grade {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: end;
+  margin-right: 120px;
+}
+
+.botao {
+  padding: 30px 60px;
+  background: linear-gradient(#ace1af 0%, #aadead 0%, #5e7b60 100%);
+  font: 600 1.125rem/1.35 "Poppins", Fira Sans, Arial, Helvetica, sans-serif;
+  box-shadow: 0 1px 1px #492b77;
+  border-radius: 5px;
+  border-width: 1px;
+  border: none;
+  cursor: pointer;
+}
+
 @media (max-width: 800px) {
   .about {
     display: grid;

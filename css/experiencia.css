@@ -16,54 +16,32 @@
   font-weight: 600;
 }
 
-.experiencia-barra1 {
+.experiencia-grade {
   margin-left: 120px;
   align-items: center;
   margin: 0 auto;
 }
 
-.experiencia-barra1 {
+.experiencia-grade {
   max-width: 80ch;
-  padding: 20px;
+  padding: 30px;
   background: #8eb990;
   border-radius: 4px;
   align-items: center;
+  text-align: justify;
 }
-.experiencia-barra2 {
-  margin-left: 120px;
-  align-items: center;
-  margin: 0 auto;
-}
-
-.experiencia-barra2 {
-  max-width: 80ch;
-  padding: 20px 70px;
-  background: #8eb990;
-  border-radius: 4px;
-  align-items: center;
-}
-
 .grade-marinha,
+.grade-curso,
 .span-data {
-  position: relative;
-  left: 38%;
-}
-.span-data {
-  left: 42%;
+  text-align: center;
 }
 
-.grade-curso,
-.curso-militar {
-  display: flex;
-  align-items: center;
-  margin-left: 0px;
+.experiencia-texto {
+  margin: 10px;
 }
-.grade-curso {
-  margin-left: 30%;
-}
-.livro-curso {
-  margin-right: 20px;
-}
+
+/*------------------------------------RESPONSIVO -----------------------------------------------------*/
+
 @media (max-width: 800px) {
   .experiencia-container {
     margin: 0 auto;
@@ -74,8 +52,6 @@
   }
 }
 
-/*------------------------------------RESPONSIVO -----------------------------------------------------*/
-
 @media (max-width: 600px) {
   .experiencia-container {
     display: grid;
@@ -85,18 +61,12 @@
     align-items: center;
     max-width: 30ch;
   }
-
-  .grade-marinha {
-    position: static;
-    margin-left: 60px;
-  }
-  .span-data {
-    position: static;
-    margin-left: 90px;
-  }
-  .experiencia-texto {
-    font-size: 14px;
-  }
+}
+.span-data {
+  text-align: center;
+}
+.experiencia-texto {
+  font-size: 14px;
 }
 
 .grade-curso {

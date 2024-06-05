@@ -1,0 +1,45 @@
+.projetos {
+  max-width: 100%;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  margin: 0 auto;
+  gap: 60px;
+  align-items: center;
+}
+
+.projetos-titulo {
+  width: auto;
+  font-size: 6rem;
+  color: #000000;
+  margin-top: 60px;
+  margin: 0 auto;
+  font-family: roboto;
+  font-weight: 600;
+}
+
+.projetos-img {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 60px;
+  gap: 60px;
+}
+
+.bikcraft-img,
+.habits-img,
+.lobo-img {
+  border-radius: 5px;
+}
+
+/*------------------------------------RESPONSIVO -----------------------------------------------------*/
+@media (max-width: 800px) {
+  .projetos-titulo {
+    font-size: 3rem;
+  }
+  .projetos-img {
+    display: flex;
+    justify-content: center;
+  }
+}
